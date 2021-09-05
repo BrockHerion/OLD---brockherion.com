@@ -1,12 +1,6 @@
 name: cd
 
-on:
-  push:
-    branches:
-      - master
-  pull_requests:
-    branches:
-      - master
+on: [push, pull_request]
 
 jobs:
   cd:
