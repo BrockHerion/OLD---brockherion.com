@@ -1,0 +1,40 @@
+name: cd
+
+on:
+  push:
+    branches:
+      - master
+  pull_requests:
+    branches:
+      - master
+
+jobs:
+  cd:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: ${{ matrix.node }}
+          check-latest: true
+
+      - name: Install dependencies 👨🏻‍💻
+        run: yarn
+
+      - name: Generate 🛠
+        run: yarn run generate
+
+      - name: Deploy 👀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
