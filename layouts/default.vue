@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="bg-gray-50">
     <Header />
 
-    <main class="bg-gray-50">
+    <main>
       <Nuxt />
     </main>
 
