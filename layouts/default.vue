@@ -6,5 +6,7 @@
       <Nuxt />
     </main>
 
+    <Footer />
+
   </div>
 </template>
