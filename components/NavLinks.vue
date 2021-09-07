@@ -7,9 +7,12 @@
       <a href="/about">About</a>
     </li>
     <li class="mr-6 link">
-      <a href="/tech">Tech</a>
+      <a href="/books">Book Notes</a>
     </li>
     <li class="mr-6 link">
+      <a href="/tech">Tech</a>
+    </li>
+    <li class="link">
       <a href="/newsletter">Newsletter</a>
     </li>
   </ul>

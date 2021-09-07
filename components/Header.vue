@@ -1,5 +1,5 @@
 <template>
-  <header class="mx-80 my-7">
+  <header class="px-80 xl:px-60 py-7 mb-7">
     <div class="flex items-center justify-between">
       <a class="flex text-lg items-center" href="/">
         <terminal-icon />
@@ -10,13 +10,14 @@
   </header>
 </template>
 <script lang="ts">
+import Vue from 'vue'
 import {
   TerminalIcon,
 } from 'vue-feather-icons';
 
-export default {
+export default Vue.extend({
   components: {
     TerminalIcon,
   }
-}
+});
 </script>
