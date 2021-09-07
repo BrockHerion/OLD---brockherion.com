@@ -1,36 +1,23 @@
 <template>
-  <header class="mx-80 my-7">
+  <header class="px-80 xl:px-60 py-7 mb-7">
     <div class="flex items-center justify-between">
       <a class="flex text-lg items-center" href="/">
         <terminal-icon />
         Brock Herion
       </a>
-      <ul class="flex items-center">
-        <li class="mr-6">
-          <a href="/articles">Articles</a>
-        </li>
-        <li class="mr-6">
-          <a href="/about">About</a>
-        </li>
-        <li class="mr-6">
-          <a href="/tech">Tech</a>
-        </li>
-        <li class="mr-6">
-          <a href="/newsletter">Newsletter</a>
-        </li>
-      </ul>
+      <NavLinks />
     </div>
   </header>
 </template>
 <script lang="ts">
+import Vue from 'vue'
 import {
   TerminalIcon,
 } from 'vue-feather-icons';
 
-export default {
+export default Vue.extend({
   components: {
     TerminalIcon,
   }
-}
+});
 </script>
-
