@@ -1,9 +1,11 @@
 <template>
   <footer>
+    <section class="px-80 xl:px-60 py-4 bg-gray-300">
 
-    <section class="px-80 xl:px-60 py-4  bg-gray-800 flex items-center justify-between">
+    </section>
+    <section class="px-80 xl:px-60 py-4 bg-gray-800 flex items-center justify-between">
       <div class="text-gray-50">
-        <span>&copy; Brock Herion 2021.</span>
+        <small>&copy; Brock Herion 2021.</small>
       </div>
       <FooterIcons />
     </section>
