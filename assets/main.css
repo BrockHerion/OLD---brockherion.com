@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --font-header: 'JetBrains Mono';
+  --font-body: 'Open Sans';
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,5 +14,10 @@
 }
 
 body {
-  @apply bg-gray-200;
+  @apply bg-gray-100;
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-header);
 }
