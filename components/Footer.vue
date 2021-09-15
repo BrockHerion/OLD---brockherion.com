@@ -5,8 +5,8 @@
       <div class="md:grid md:grid-cols-2">
         <p class="text-md">
           The Weekly Retrospective is a newsletter that relfects on the previous week.
-          In it, we look at what went well, what could have gone better, and what we from
-          it. I also share any interesting content I found during the week, including
+          In it, we look at what went well, what could have gone better, and what we
+          can learn from it. I also share any interesting content I found during the week, including
           things like Twitter Threads, other blog posts, and videos. Sign up to join
           a growing community of friendly readers!
         </p>
