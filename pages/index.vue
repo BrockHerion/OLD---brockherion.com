@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section class="2xl:px-96 xl:px-60 lg:px-36 md:px-16 px-4 md:grid md:grid-cols-2 flex flex-col-reverse items-center mb-7">
-      <div>
+    <section class="2xl:px-96 xl:px-60 lg:px-36 md:px-16 px-4 md:grid md:grid-cols-2 flex flex-col-reverse items-center py-7 bg-blue-50">
+      <div class="flex flex-col">
         <h1 class="text-5xl mb-4 font-bold text-center md:text-left">Hi there 👋</h1>
         <h2 class="text-2xl mb-3">
           I'm Brock, a full-stack software developer and content creator from Chicago.
@@ -16,12 +16,10 @@
           content. Enter your email below and join a friendly,
           growing community of readers!
         </h3>
-        <div class="flex justify-center">
-          <form>
-            <input class="py-2 px-3 mr-1 rounded-md" type="email" placeholder="Email address" />
-            <button class="bg-blue-500 text-white py-2 px-3 rounded-md" type="submit">Subscribe</button>
-          </form>
-        </div>
+        <form class="flex justify-start items center">
+          <input class="py-2 px-3 mr-1 rounded-md border border-gray-300" type="email" placeholder="Email address" />
+          <button class="bg-blue-500 text-white py-2 px-3 rounded-md" type="submit">Subscribe</button>
+        </form>
       </div>
       <div class="flex justify-center">
         <div class="h-64 w-64 rounded-full bg-gray-800 flex items-center justify-center">
@@ -29,7 +27,7 @@
         </div>
       </div>
     </section>
-    <section class="2xl:px-96 xl:px-60 lg:px-36 md:px-16 px-4 bg-gray-200 flex flex-col items-center md:items-start">
+    <section class="2xl:px-96 xl:px-60 lg:px-36 md:px-16 px-4 bg-gray-50 flex flex-col items-center md:items-start">
       <div>
         <h2 class="text-2xl my-3">Check out these recent articles 📰</h2>
       </div>

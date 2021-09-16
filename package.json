@@ -19,7 +19,8 @@
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
     "push-dir": "^0.4.1",
-    "vue-feather-icons": "^5.1.0"
+    "vue-feather-icons": "^5.1.0",
+    "vue-plausible": "^1.2.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
