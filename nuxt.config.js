@@ -52,6 +52,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxt/content',
+    'vue-plausible',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -67,5 +69,9 @@ export default {
       'JetBrains Mono': true,
       'Open Sans': true
     }
+  },
+
+  plausible: {
+    domain: 'brockherion.github.io/brockherion.com'
   }
 }
