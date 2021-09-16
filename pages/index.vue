@@ -4,10 +4,10 @@
       <div class="flex flex-col">
         <h1 class="text-5xl mb-4 font-bold text-center md:text-left">Hi there 👋</h1>
         <h2 class="text-2xl mb-3">
-          I'm Brock, a full-stack software developer and content creator from Chicago.
+          I'm Brock and I'm a full-stack developer from Chicago
         </h2>
         <h3 class="text-lg mb-3 font-body">
-          On this site, you'll find content relating to the software development, along with other areas of a developers life, like health
+          On this site, you'll find content relating to the software development, along with other areas of a developers life, like lifestyle
           and productivity.
         </h3>
         <h3 class="text-lg mb-4 font-body">
