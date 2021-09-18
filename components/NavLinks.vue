@@ -1,19 +1,19 @@
 <template>
   <ul class="flex items-center">
     <li class="mr-6 link">
-      <a href="/articles">Articles</a>
+      <NuxtLink to="/articles">Articles</NuxtLink>
     </li>
     <li class="mr-6 link">
-      <a href="/about">About</a>
+      <NuxtLink to="/about">About</NuxtLink>
     </li>
     <li class="mr-6 link">
-      <a href="/books">Book Notes</a>
+      <NuxtLink to="/books">Book Notes</NuxtLink>
     </li>
     <li class="mr-6 link">
-      <a href="/tech">Tech</a>
+      <NuxtLink to="/tech">Tech</NuxtLink>
     </li>
     <li class="link">
-      <a href="/newsletter">Newsletter</a>
+      <NuxtLink to="/newsletter">Newsletter</NuxtLink>
     </li>
   </ul>
 </template>
