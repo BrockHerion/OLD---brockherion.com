@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <section class="2xl:px-96 xl:px-60 lg:px-36 px-4 pt-4 pb-8 bg-blue-50">
+    <section class="2xl:px-96 xl:px-80 lg:px-36 px-4 pt-4 pb-8 bg-blue-50">
       <h3 class="text-lg mb-2">The Weekly Retrospective 📨</h3>
       <div class="md:grid md:grid-cols-2">
         <p class="text-md">
@@ -17,7 +17,7 @@
         </form>
       </div>
     </section>
-    <section class="2xl:px-96 xl:px-60 lg:px-36 md:px-16 px-4 py-4 bg-gray-800 flex flex-col-reverse md:flex-row items-center md:justify-between">
+    <section class="2xl:px-96 xl:px-80 lg:px-36 md:px-16 px-4 py-4 bg-gray-800 flex flex-col-reverse md:flex-row items-center md:justify-between">
       <div class="text-gray-50">
         <small>&copy; Brock Herion 2021.</small>
       </div>
