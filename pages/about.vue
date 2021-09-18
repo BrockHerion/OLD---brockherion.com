@@ -4,20 +4,17 @@
       <div class="mb-6 h-64 w-64 rounded-full bg-gray-800 flex items-center justify-center">
         <img class="rounded-full" src="~/assets/images/brock-and-sam.png" width="240" height="240" alt="Brock and Sam in Disney World" />
       </div>
-      <h1 class="text-5xl">Who is Brock? 👨‍💻</h1>
+      <h1 class="text-5xl">About me 👨‍💻</h1>
     </section>
     <section class="2xl:px-96 xl:px-80 lg:px-36 md:px-16 px-4">      
-      <h2 class="text-3xl mb-4">
-        
-      </h2>
-      <h3 class="text-2xl mb-3">The short story 📃</h3>
-      <p class="mb-3">
+      <h3 class="text-3xl mb-3">The short story 📃</h3>
+      <p class="mb-6">
         Brock is a full-stack developer and content creator from Chicago who has a severe caffine addiction. He loves
         building projects using C#, JavaScript, and Python. He's currently trying to learn Rust and
         Solidity for Web3.0 and (eventually) wants to dive back into Swift and iOS development.
         Brock is currently living in the Chicago suburbs with his fianc&#233; Sam and their three cats.
       </p>
-      <h3 class="text-2xl mb-3">The long story 📖</h3>
+      <h3 class="text-3xl mb-3">The long story 📖</h3>
       <h4 class="text-xl">What do I do?</h4>
       <p class="mb-3">
         I build applications and create content around coding, productivity, and lifestyle for developers. My goal is make the
@@ -33,8 +30,7 @@
         some Python should there be a need for it! I love working in .NET, NextJS, and Django when I can. I am also learning
         how to build apps that interface with the Ethereum blockchain with Solidity, along with learning Rust for WASM.
         I had a fling with Swift and iOS that I would love to get back into!
-      </p>
-      <p class="my-3">
+      </p>      <p class="my-3">
         I've been coding for as long as I can remeber. As a kid I grew up playing computer games like Star Wars: Galactic
         Battlegrounds, which was an Age of Empires game with a Star Wars skin. At one point, I remember wanting to start a blog
         and going so far as to find a tutorial in Ruby on Rails! I ended up making a Tumblr and blogging on there for a little bit
