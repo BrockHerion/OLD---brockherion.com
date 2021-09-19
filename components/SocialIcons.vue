@@ -1,5 +1,5 @@
 <template>
-  <ul class="flex items-center">
+  <ul class="flex items-center my-6">
     <li class="mr-2">
       <a href="https://twitter.com/BrockHerion" target="blank">
         <twitter-icon fill="#fff" stroke="#1f2937" />
