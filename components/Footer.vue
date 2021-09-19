@@ -12,7 +12,7 @@
         </p>
         <form class="flex flex-col pl-6">
           <input id="footerNewsletter" class="py-2 px-3 mb-2 mr-1 rounded-md border border-gray-200" type="email" placeholder="Email address" />
-          <button class="bg-blue-500 text-white py-2 px-3 rounded-md" type="submit">Subscribe</button> 
+          <button class="bg-blue-500 text-white py-2 px-3 rounded-md" type="submit">Subscribe</button>
         </form>
       </div>
     </section>
@@ -20,7 +20,7 @@
       <div class="text-gray-50">
         <small>&copy; Brock Herion 2021.</small>
       </div>
-      <FooterIcons />
+      <FooterSocialIcons />
     </section>
   </footer>
 </template>
